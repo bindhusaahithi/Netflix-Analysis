@@ -1,44 +1,203 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<title>Netflix Data Analysis | Bindhu Saahithi</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Data Analysis | Bindhu Saahithi</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<h1>Netflix Data Analysis</h1>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">Data Science Project Portfolio</p>
+      <h1>Netflix Data Analysis</h1>
+      <p class="subtitle">
+        A data analysis project exploring Netflix Movies and TV Shows to uncover trends
+        in content growth, genre popularity, country contribution, ratings, and director activity.
+      </p>
 
-<p>
-This project analyzes Netflix Movies and TV Shows data
-to understand trends in content growth, genres, and countries.
-</p>
+      <div class="hero-buttons">
+        <a href="https://github.com/bindhusaahithi/Netflix-Analysis" target="_blank" class="btn primary-btn">
+          View GitHub Repository
+        </a>
+        <a href="https://www.kaggle.com/datasets/shivamb/netflix-shows" target="_blank" class="btn secondary-btn">
+          View Dataset
+        </a>
+      </div>
+    </div>
+  </header>
 
-<h2>Project Visualizations</h2>
+  <main class="container">
 
-<img src="visuals/content_growth.png" width="400">
-<br><br>
+    <section class="card">
+      <h2>Project Overview</h2>
+      <p>
+        This project analyzes the Netflix Movies and TV Shows dataset using Python and
+        popular data analysis libraries. The main goal is to understand how Netflix
+        content has grown over time, compare Movies and TV Shows, identify the most
+        common genres, find the top contributing countries, examine common audience
+        ratings, and explore directors with the highest number of titles.
+      </p>
+      <p>
+        This project demonstrates practical skills in data cleaning, exploratory data
+        analysis, visualization, and insight generation using a real-world dataset.
+      </p>
+    </section>
 
-<img src="visuals/movies_vs_tvshows.png" width="400">
-<br><br>
+    <section class="info-grid">
+      <div class="card">
+        <h2>Tools & Technologies</h2>
+        <ul>
+          <li>Python</li>
+          <li>Pandas</li>
+          <li>NumPy</li>
+          <li>Matplotlib</li>
+          <li>Seaborn</li>
+          <li>Jupyter Notebook</li>
+        </ul>
+      </div>
 
-<img src="visuals/top_countries.png" width="400">
-<br><br>
+      <div class="card">
+        <h2>Dataset</h2>
+        <p>
+          This project uses the Netflix Movies and TV Shows dataset, which includes
+          information such as title, type, country, director, cast, rating, release
+          year, and genre.
+        </p>
+        <p>
+          Dataset Source:
+          <a href="https://www.kaggle.com/datasets/shivamb/netflix-shows" target="_blank">
+            Netflix Movies and TV Shows Dataset on Kaggle
+          </a>
+        </p>
+      </div>
+    </section>
 
-<img src="visuals/top_directors.png" width="400">
-<br><br>
+    <section class="card">
+      <h2>Project Objectives</h2>
+      <ul>
+        <li>Analyze the growth of Netflix content over the years</li>
+        <li>Compare the distribution of Movies and TV Shows</li>
+        <li>Identify the most popular genres on Netflix</li>
+        <li>Find the top countries contributing content</li>
+        <li>Explore directors with the most titles</li>
+        <li>Examine the most common ratings across Netflix titles</li>
+      </ul>
+    </section>
 
-<img src="visuals/top_genres.png" width="400">
-<br><br>
+    <section class="card">
+      <h2>Key Questions Answered</h2>
+      <ul>
+        <li>How has Netflix content grown over time?</li>
+        <li>Does Netflix have more Movies or TV Shows?</li>
+        <li>Which countries contribute the most content?</li>
+        <li>Which genres are most common on Netflix?</li>
+        <li>Which directors have the highest number of titles?</li>
+        <li>What ratings appear most frequently in the dataset?</li>
+      </ul>
+    </section>
 
-<img src="visuals/top_ratings.png" width="400">
-<br><br>
+    <section class="card">
+      <h2>Visual Analysis</h2>
+      <div class="visual-grid">
 
-<a href="https://github.com/bindhusaahithi/Netflix-Analysis">
-View Project on GitHub
-</a>
+        <div class="visual-card">
+          <img src="visuals/content_growth.png" alt="Netflix content growth over time chart" />
+          <h3>Content Growth</h3>
+          <p>
+            This visualization shows how Netflix content expanded rapidly over the years,
+            highlighting a strong increase before a slight decline.
+          </p>
+        </div>
+
+        <div class="visual-card">
+          <img src="visuals/movies_vs_tvshows.png" alt="Movies versus TV Shows comparison chart" />
+          <h3>Movies vs TV Shows</h3>
+          <p>
+            This chart compares the number of Movies and TV Shows available on Netflix
+            and shows that Movies form the larger share of the platform.
+          </p>
+        </div>
+
+        <div class="visual-card">
+          <img src="visuals/top_countries.png" alt="Top countries contributing Netflix content chart" />
+          <h3>Top Countries</h3>
+          <p>
+            This analysis highlights the countries contributing the most titles to Netflix,
+            showing a strong concentration from a few key regions.
+          </p>
+        </div>
+
+        <div class="visual-card">
+          <img src="visuals/top_directors.png" alt="Top directors on Netflix chart" />
+          <h3>Top Directors</h3>
+          <p>
+            This chart identifies the directors with the highest number of Netflix titles,
+            helping reveal the most frequent content creators in the dataset.
+          </p>
+        </div>
+
+        <div class="visual-card">
+          <img src="visuals/top_genres.png" alt="Top genres on Netflix chart" />
+          <h3>Top Genres</h3>
+          <p>
+            This visualization shows the most common genres available on Netflix and
+            highlights the kinds of content that dominate the catalog.
+          </p>
+        </div>
+
+        <div class="visual-card">
+          <img src="visuals/top_ratings.png" alt="Top content ratings on Netflix chart" />
+          <h3>Top Ratings</h3>
+          <p>
+            This analysis displays the most frequent content ratings in the dataset and
+            helps explain how Netflix content is distributed across audience groups.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Key Insights</h2>
+      <ul>
+        <li>Netflix content experienced rapid growth in recent years before a slight decline.</li>
+        <li>Movies make up a larger portion of the Netflix catalog than TV Shows.</li>
+        <li>A few countries contribute a major share of the total content available.</li>
+        <li>Some genres dominate the platform, showing strong content concentration in specific categories.</li>
+        <li>Ratings analysis provides a clearer view of the target audience across Netflix titles.</li>
+        <li>Director analysis helps identify the creators with the strongest presence in the dataset.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Why This Project Matters</h2>
+      <p>
+        This project reflects the kind of analysis used in real business and product
+        environments. It demonstrates how raw entertainment data can be cleaned,
+        explored, visualized, and transformed into meaningful insights.
+      </p>
+      <p>
+        It also highlights my ability to work with datasets, ask relevant analytical
+        questions, create visual summaries, and communicate findings clearly in a
+        professional format.
+      </p>
+    </section>
+
+    <section class="card center-card">
+      <h2>Project Link</h2>
+      <p>Explore the full notebook, code, and project files in the GitHub repository.</p>
+      <a href="https://github.com/bindhusaahithi/Netflix-Analysis" target="_blank" class="btn primary-btn">
+        Open GitHub Repository
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Created by Bindhu Saahithi | Data Science Student</p>
+  </footer>
 
 </body>
-
 </html>
