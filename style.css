@@ -112,6 +112,7 @@ a:hover {
 .primary-btn {
   background: #ffffff;
   color: #e50914;
+  box-shadow: 0 4px 15px rgba(255,0,0,0.4);
 }
 
 .primary-btn:hover {
@@ -133,7 +134,7 @@ a:hover {
 .card {
   background: #171c2c;
   margin: 34px 0;
-  padding: 30px;
+  padding: 40px;
   border-radius: 16px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
   border: 1px solid #232a3f;
@@ -200,7 +201,7 @@ a:hover {
 
 .visual-card img {
   width: 100%;
-  max-width: 350px;
+  max-width: 420px;
   height: auto;
   margin: 0 auto 14px;
   display: block;
