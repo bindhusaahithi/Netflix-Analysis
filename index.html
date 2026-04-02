@@ -8,15 +8,27 @@
 </head>
 <body>
 
+  <nav class="navbar">
+    <div class="nav-container">
+      <h2 class="logo">Bindhu Saahithi</h2>
+      <ul class="nav-links">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#workflow">Workflow</a></li>
+        <li><a href="#visuals">Visuals</a></li>
+        <li><a href="#insights">Insights</a></li>
+        <li><a href="https://github.com/bindhusaahithi/Netflix-Analysis" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <header class="hero">
     <div class="container">
       <p class="eyebrow">Data Science Project Portfolio</p>
       <h1>Netflix Data Analysis</h1>
       <p class="subtitle">
-        A data analysis project exploring Netflix Movies and TV Shows to uncover trends
-        in content growth, genre popularity, country contribution, ratings, and director activity.
+        A data analysis project exploring Netflix Movies and TV Shows to uncover trends in content growth,
+        genre popularity, country contribution, ratings, and director activity.
       </p>
-
       <div class="hero-buttons">
         <a href="https://github.com/bindhusaahithi/Netflix-Analysis" target="_blank" class="btn primary-btn">
           View GitHub Repository
@@ -30,43 +42,43 @@
 
   <main class="container">
 
-    <section class="card">
+    <section class="card" id="overview">
       <h2>Project Overview</h2>
       <p>
-        This project analyzes the Netflix Movies and TV Shows dataset using Python and
-        popular data analysis libraries. The main goal is to understand how Netflix
-        content has grown over time, compare Movies and TV Shows, identify the most
-        common genres, find the top contributing countries, examine common audience
-        ratings, and explore directors with the highest number of titles.
+        This project analyzes the Netflix Movies and TV Shows dataset to uncover trends in content growth,
+        genre popularity, country contribution, and rating distribution.
       </p>
       <p>
-        This project demonstrates practical skills in data cleaning, exploratory data
-        analysis, visualization, and insight generation using a real-world dataset.
+        Using Python, Pandas, and Seaborn, the project performs exploratory data analysis,
+        data cleaning, and visualization to identify patterns in Netflix’s content strategy
+        and understand how the platform’s catalog has evolved over time.
+      </p>
+      <p>
+        This project demonstrates practical skills in data cleaning, exploratory data analysis,
+        visualization, and insight generation using a real-world dataset.
       </p>
     </section>
 
     <section class="info-grid">
       <div class="card">
         <h2>Tools & Technologies</h2>
-        <ul>
-          <li>Python</li>
-          <li>Pandas</li>
-          <li>NumPy</li>
-          <li>Matplotlib</li>
-          <li>Seaborn</li>
-          <li>Jupyter Notebook</li>
+        <ul class="icon-list">
+          <li>🐍 Python</li>
+          <li>📊 Pandas</li>
+          <li>🔢 NumPy</li>
+          <li>📈 Matplotlib</li>
+          <li>🎨 Seaborn</li>
+          <li>📓 Jupyter Notebook</li>
         </ul>
       </div>
 
       <div class="card">
         <h2>Dataset</h2>
+        <p><strong>Dataset:</strong> Netflix Movies and TV Shows Dataset</p>
+        <p><strong>Size:</strong> ~8800+ titles</p>
+        <p><strong>Features:</strong> Title, Type, Director, Country, Cast, Genre, Rating, Release Year</p>
         <p>
-          This project uses the Netflix Movies and TV Shows dataset, which includes
-          information such as title, type, country, director, cast, rating, release
-          year, and genre.
-        </p>
-        <p>
-          Dataset Source:
+          <strong>Source:</strong>
           <a href="https://www.kaggle.com/datasets/shivamb/netflix-shows" target="_blank">
             Netflix Movies and TV Shows Dataset on Kaggle
           </a>
@@ -87,6 +99,29 @@
     </section>
 
     <section class="card">
+      <h2>Skills Demonstrated</h2>
+      <ul>
+        <li>Data Cleaning and Preprocessing</li>
+        <li>Exploratory Data Analysis (EDA)</li>
+        <li>Data Visualization</li>
+        <li>Trend Analysis</li>
+        <li>Insight Generation</li>
+        <li>Python Data Analysis Workflow</li>
+      </ul>
+    </section>
+
+    <section class="card" id="workflow">
+      <h2>Project Workflow</h2>
+      <ol>
+        <li><strong>Data Collection:</strong> Obtained the Netflix dataset from Kaggle.</li>
+        <li><strong>Data Cleaning:</strong> Handled missing values and standardized relevant columns.</li>
+        <li><strong>Exploratory Data Analysis:</strong> Explored distribution across genres, countries, ratings, and content type.</li>
+        <li><strong>Data Visualization:</strong> Built visualizations using Matplotlib and Seaborn.</li>
+        <li><strong>Insight Extraction:</strong> Identified key trends in Netflix content growth and catalog structure.</li>
+      </ol>
+    </section>
+
+    <section class="card">
       <h2>Key Questions Answered</h2>
       <ul>
         <li>How has Netflix content grown over time?</li>
@@ -98,7 +133,7 @@
       </ul>
     </section>
 
-    <section class="card">
+    <section class="card" id="visuals">
       <h2>Visual Analysis</h2>
       <div class="visual-grid">
 
@@ -106,8 +141,8 @@
           <img src="visuals/content_growth.png" alt="Netflix content growth over time chart" />
           <h3>Content Growth</h3>
           <p>
-            This visualization shows how Netflix content expanded rapidly over the years,
-            highlighting a strong increase before a slight decline.
+            Netflix experienced rapid content expansion between 2016 and 2019, with a peak around 2019.
+            After this period, growth slightly declined.
           </p>
         </div>
 
@@ -115,8 +150,8 @@
           <img src="visuals/movies_vs_tvshows.png" alt="Movies versus TV Shows comparison chart" />
           <h3>Movies vs TV Shows</h3>
           <p>
-            This chart compares the number of Movies and TV Shows available on Netflix
-            and shows that Movies form the larger share of the platform.
+            Movies dominate Netflix’s catalog compared to TV Shows, showing the platform still relies heavily
+            on movie content while growing its series library.
           </p>
         </div>
 
@@ -124,8 +159,8 @@
           <img src="visuals/top_countries.png" alt="Top countries contributing Netflix content chart" />
           <h3>Top Countries</h3>
           <p>
-            This analysis highlights the countries contributing the most titles to Netflix,
-            showing a strong concentration from a few key regions.
+            The United States contributes the largest share of Netflix content, followed by India and other major markets,
+            reflecting Netflix’s global distribution strategy.
           </p>
         </div>
 
@@ -133,8 +168,8 @@
           <img src="visuals/top_directors.png" alt="Top directors on Netflix chart" />
           <h3>Top Directors</h3>
           <p>
-            This chart identifies the directors with the highest number of Netflix titles,
-            helping reveal the most frequent content creators in the dataset.
+            Director analysis highlights the creators with the strongest presence in the dataset and helps identify
+            frequent contributors to the Netflix catalog.
           </p>
         </div>
 
@@ -142,8 +177,8 @@
           <img src="visuals/top_genres.png" alt="Top genres on Netflix chart" />
           <h3>Top Genres</h3>
           <p>
-            This visualization shows the most common genres available on Netflix and
-            highlights the kinds of content that dominate the catalog.
+            Genre distribution shows which content categories dominate the platform and reveals Netflix’s concentration
+            in a few highly represented genres.
           </p>
         </div>
 
@@ -151,37 +186,49 @@
           <img src="visuals/top_ratings.png" alt="Top content ratings on Netflix chart" />
           <h3>Top Ratings</h3>
           <p>
-            This analysis displays the most frequent content ratings in the dataset and
-            helps explain how Netflix content is distributed across audience groups.
+            Ratings analysis helps explain how Netflix content is distributed across audience groups and what type
+            of maturity levels appear most often.
           </p>
         </div>
 
       </div>
     </section>
 
-    <section class="card">
+    <section class="card" id="insights">
       <h2>Key Insights</h2>
       <ul>
-        <li>Netflix content experienced rapid growth in recent years before a slight decline.</li>
-        <li>Movies make up a larger portion of the Netflix catalog than TV Shows.</li>
-        <li>A few countries contribute a major share of the total content available.</li>
+        <li>Netflix content expanded rapidly in recent years before a slight decline.</li>
+        <li>Movies make up a larger share of the Netflix catalog than TV Shows.</li>
+        <li>A few countries contribute a major portion of the total content available.</li>
         <li>Some genres dominate the platform, showing strong content concentration in specific categories.</li>
-        <li>Ratings analysis provides a clearer view of the target audience across Netflix titles.</li>
-        <li>Director analysis helps identify the creators with the strongest presence in the dataset.</li>
+        <li>Ratings analysis provides a clear view of the target audience across Netflix titles.</li>
+        <li>Director analysis highlights recurring creators with a strong catalog presence.</li>
       </ul>
     </section>
 
     <section class="card">
       <h2>Why This Project Matters</h2>
       <p>
-        This project reflects the kind of analysis used in real business and product
-        environments. It demonstrates how raw entertainment data can be cleaned,
-        explored, visualized, and transformed into meaningful insights.
+        This project reflects the kind of analysis used in real business and product environments.
+        It demonstrates how raw entertainment data can be cleaned, explored, visualized,
+        and transformed into meaningful insights.
       </p>
       <p>
-        It also highlights my ability to work with datasets, ask relevant analytical
-        questions, create visual summaries, and communicate findings clearly in a
-        professional format.
+        It also highlights my ability to work with datasets, ask relevant analytical questions,
+        create visual summaries, and communicate findings clearly in a professional format.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Conclusion</h2>
+      <p>
+        The analysis shows that Netflix rapidly expanded its content library between 2016 and 2019,
+        with movies dominating the platform’s catalog. International content also plays an important role,
+        reflecting Netflix’s strategy to reach global audiences.
+      </p>
+      <p>
+        These insights demonstrate how data analysis can help understand content trends
+        and platform strategy in the streaming industry.
       </p>
     </section>
 
@@ -195,8 +242,8 @@
 
   </main>
 
-  <footer>
-    <p>Created by Bindhu Saahithi | Data Science Student</p>
+  <footer class="footer">
+    <p>© 2026 Bindhu Saahithi | Data Science Portfolio</p>
   </footer>
 
 </body>
