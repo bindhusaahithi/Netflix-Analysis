@@ -61,19 +61,16 @@ Several directors contribute multiple titles, showing strong collaborations with
 ```mermaid
 flowchart LR
 
-A[Netflix Dataset CSV] --> B[Data Cleaning / Preprocessing<br>Python + Pandas]
+A["Netflix Dataset CSV"] --> B["Data Cleaning / Preprocessing (Pandas)"]
+B --> C["Exploratory Data Analysis (Python)"]
+C --> D["Visualization Layer (Matplotlib / Seaborn)"]
+D --> E["Insights & Trend Analysis"]
 
-B --> C[Exploratory Data Analysis<br>Python]
-
-C --> D[Visualization Layer<br>Matplotlib / Seaborn]
-
-D --> E[Insights & Trend Analysis]
-
-E --> F[Business Insights<br>Content Trends]
-
-E --> G[Genre & Country Analysis]
-
-E --> H[Director Analysis]
+E --> F["Content Growth Insights"]
+E --> G["Genre Distribution"]
+E --> H["Country Production Trends"]
+E --> I["Top Directors Analysis"]
+```
 
 
 
