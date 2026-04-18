@@ -54,6 +54,30 @@ The United States leads content production, followed by India and the United Kin
 
 Several directors contribute multiple titles, showing strong collaborations with Netflix.
 
+
+
+## Architecture
+
+```mermaid
+flowchart LR
+
+A[Netflix Dataset CSV] --> B[Data Cleaning / Preprocessing<br>Python + Pandas]
+
+B --> C[Exploratory Data Analysis<br>Python]
+
+C --> D[Visualization Layer<br>Matplotlib / Seaborn]
+
+D --> E[Insights & Trend Analysis]
+
+E --> F[Business Insights<br>Content Trends]
+
+E --> G[Genre & Country Analysis]
+
+E --> H[Director Analysis]
+
+
+
+
 ## Project Structure
 
 Netflix-Analysis
