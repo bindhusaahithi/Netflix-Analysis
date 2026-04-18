@@ -1,134 +1,284 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Netflix Content Analytics</title>
-
-<link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Content Analytics Platform</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="hero">
+    <nav class="nav">
+      <a href="#overview">Overview</a>
+      <a href="#insights">Insights</a>
+      <a href="#visuals">Visuals</a>
+      <a href="#workflow">Workflow</a>
+      <a href="#run">Run</a>
+    </nav>
 
-<header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">Data Analytics Case Study</p>
+      <h1>Netflix Content Analytics Platform</h1>
+      <p class="hero-copy">
+        A project portfolio analyzing 8,800+ Netflix Movies and TV Shows using Python, Pandas,
+        Matplotlib, and Seaborn to uncover content growth, genre dominance, global production,
+        and catalog strategy patterns.
+      </p>
 
-<h1>Netflix Content Analytics</h1>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://github.com/bindhusaahithi/Netflix-Analysis" target="_blank" rel="noreferrer">
+          View GitHub Repository
+        </a>
+        <a class="btn btn-secondary" href="https://www.kaggle.com/datasets/shivamb/netflix-shows" target="_blank" rel="noreferrer">
+          View Dataset
+        </a>
+      </div>
+    </div>
+  </header>
 
-<p>
-Exploratory data analysis of Netflix Movies and TV Shows dataset to uncover
-content trends, genre dominance, and global production patterns.
-</p>
+  <main>
+    <section class="section" id="overview">
+      <div class="section-header">
+        <p class="section-kicker">Project Overview</p>
+        <h2>Turning Netflix catalog data into business-ready insights</h2>
+        <p>
+          This project studies Netflix title metadata to understand how the platform's catalog has
+          changed over time, which content types dominate, and which countries and genres contribute
+          most to the platform's global content strategy.
+        </p>
+      </div>
 
-<a class="github-btn" href="https://github.com/bindhusaahithi/Netflix-Analysis">
-View GitHub Repository
-</a>
+      <div class="stats-grid">
+        <article class="stat-card">
+          <span>8,800+</span>
+          <p>Netflix titles analyzed</p>
+        </article>
+        <article class="stat-card">
+          <span>6</span>
+          <p>analysis dimensions explored</p>
+        </article>
+        <article class="stat-card">
+          <span>5</span>
+          <p>visual insights created</p>
+        </article>
+        <article class="stat-card">
+          <span>EDA</span>
+          <p>cleaning, grouping, and visualization</p>
+        </article>
+      </div>
+    </section>
 
-</header>
+    <section class="section split-section">
+      <div>
+        <p class="section-kicker">Problem Statement</p>
+        <h2>What can Netflix catalog data reveal?</h2>
+      </div>
+      <div class="text-card">
+        <p>
+          The analysis answers how Netflix expanded its library, whether Movies or TV Shows dominate,
+          which genres appear most often, and which countries drive the largest share of available
+          content. This turns raw metadata into a clear project story recruiters can understand quickly.
+        </p>
+      </div>
+    </section>
 
-<section>
+    <section class="section" id="insights">
+      <div class="section-header">
+        <p class="section-kicker">Key Findings</p>
+        <h2>Recruiter-friendly insights from the analysis</h2>
+      </div>
 
-<h2>Project Overview</h2>
+      <div class="insight-grid">
+        <article class="insight-card">
+          <span>01</span>
+          <h3>Content expansion accelerated after 2015</h3>
+          <p>Netflix added content rapidly from 2016 to 2019, showing a major catalog expansion phase.</p>
+        </article>
+        <article class="insight-card">
+          <span>02</span>
+          <h3>Movies dominate the catalog</h3>
+          <p>Movies significantly outnumber TV Shows, showing Netflix's catalog is still movie-heavy.</p>
+        </article>
+        <article class="insight-card">
+          <span>03</span>
+          <h3>International content is highly represented</h3>
+          <p>International Movies and Dramas appear most often, highlighting Netflix's global reach.</p>
+        </article>
+        <article class="insight-card">
+          <span>04</span>
+          <h3>The United States leads production</h3>
+          <p>The United States contributes the most titles, followed by India and the United Kingdom.</p>
+        </article>
+      </div>
+    </section>
 
-<p>
-This project analyzes the Netflix Movies and TV Shows dataset using Python,
-Pandas, Matplotlib, and Seaborn to uncover insights about the platform's
-content strategy.
-</p>
+    <section class="section toolkit-section">
+      <div class="section-header">
+        <p class="section-kicker">Tools & Skills</p>
+        <h2>Technical skills demonstrated</h2>
+      </div>
 
-<ul>
-<li>Analyze Netflix content growth over time</li>
-<li>Compare Movies vs TV Shows distribution</li>
-<li>Identify most popular genres</li>
-<li>Discover top content producing countries</li>
-<li>Find directors with the most Netflix titles</li>
-</ul>
+      <div class="tag-cloud">
+        <span>Python</span>
+        <span>Pandas</span>
+        <span>Matplotlib</span>
+        <span>Seaborn</span>
+        <span>Jupyter Notebook</span>
+        <span>Data Cleaning</span>
+        <span>Exploratory Data Analysis</span>
+        <span>Data Visualization</span>
+        <span>Insight Communication</span>
+      </div>
+    </section>
 
-</section>
+    <section class="section" id="visuals">
+      <div class="section-header">
+        <p class="section-kicker">Visual Analysis</p>
+        <h2>Charts with clear analytical meaning</h2>
+        <p>
+          Each visualization is paired with the main takeaway so the page reads like a case study,
+          not just a gallery of plots.
+        </p>
+      </div>
 
-<section>
+      <div class="visual-grid">
+        <article class="visual-card featured-card">
+          <img src="visuals/content_growth.png" alt="Netflix content added over time line chart" />
+          <div>
+            <h3>Content Growth Over Time</h3>
+            <p>
+              Netflix's catalog grew sharply after 2015 and peaked around 2019, suggesting an aggressive
+              expansion period before growth slowed in later years.
+            </p>
+          </div>
+        </article>
 
-<h2>Key Insights</h2>
+        <article class="visual-card">
+          <img src="visuals/movies_vs_tvshows.png" alt="Movies versus TV Shows distribution bar chart" />
+          <div>
+            <h3>Movies vs TV Shows</h3>
+            <p>
+              Movies make up the majority of titles, showing that Netflix's catalog is still strongly
+              weighted toward film content.
+            </p>
+          </div>
+        </article>
 
-<ul>
+        <article class="visual-card">
+          <img src="visuals/top_genres.png" alt="Top Netflix genres horizontal bar chart" />
+          <div>
+            <h3>Top Genres</h3>
+            <p>
+              International Movies, Dramas, and Comedies dominate, showing strong demand for broad,
+              globally appealing categories.
+            </p>
+          </div>
+        </article>
 
-<li>Netflix experienced rapid content expansion after 2016.</li>
+        <article class="visual-card">
+          <img src="visuals/top_countries.png" alt="Top countries producing Netflix content bar chart" />
+          <div>
+            <h3>Top Producing Countries</h3>
+            <p>
+              The United States leads by a wide margin, while India and the United Kingdom are also
+              important content contributors.
+            </p>
+          </div>
+        </article>
 
-<li>Movies dominate the Netflix catalog compared to TV shows.</li>
+        <article class="visual-card">
+          <img src="visuals/top_directors.png" alt="Top directors on Netflix horizontal bar chart" />
+          <div>
+            <h3>Top Directors</h3>
+            <p>
+              Repeat directors suggest recurring creator relationships and help identify frequent
+              contributors within the catalog.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-<li>International Movies and Dramas are the most common genres.</li>
+    <section class="section" id="workflow">
+      <div class="section-header">
+        <p class="section-kicker">Workflow</p>
+        <h2>Data analytics pipeline</h2>
+      </div>
 
-<li>The United States contributes the highest number of titles.</li>
+      <div class="pipeline">
+        <span>Dataset</span>
+        <span>Cleaning</span>
+        <span>EDA</span>
+        <span>Visualization</span>
+        <span>Insights</span>
+      </div>
+    </section>
 
-<li>Several directors collaborate multiple times with Netflix.</li>
+    <section class="section">
+      <div class="section-header">
+        <p class="section-kicker">Architecture</p>
+        <h2>How the project is structured</h2>
+      </div>
 
-</ul>
+      <div class="architecture">
+        <div class="arch-node">Netflix CSV Dataset</div>
+        <div class="arch-node">Pandas Cleaning</div>
+        <div class="arch-node">Exploratory Analysis</div>
+        <div class="arch-node">Matplotlib & Seaborn</div>
+        <div class="arch-node accent">Project Insights</div>
+      </div>
+    </section>
 
-</section>
+    <section class="section split-section">
+      <div>
+        <p class="section-kicker">Project Value</p>
+        <h2>What this project demonstrates</h2>
+      </div>
+      <div class="value-list">
+        <article>
+          <h3>Analytical Thinking</h3>
+          <p>Frames a real dataset around useful questions and converts exploration into clear findings.</p>
+        </article>
+        <article>
+          <h3>Technical Execution</h3>
+          <p>Uses Python libraries to clean, group, summarize, and visualize structured data.</p>
+        </article>
+        <article>
+          <h3>Communication</h3>
+          <p>Presents results in a way that is easy for technical and non-technical viewers to understand.</p>
+        </article>
+      </div>
+    </section>
 
-<section>
+    <section class="section run-section" id="run">
+      <div class="section-header">
+        <p class="section-kicker">Reproduce The Analysis</p>
+        <h2>How to run the project</h2>
+      </div>
 
-<h2>Visual Analysis</h2>
+      <div class="code-grid">
+        <div>
+          <h3>Clone Repository</h3>
+          <pre><code>git clone https://github.com/bindhusaahithi/Netflix-Analysis.git
+cd Netflix-Analysis</code></pre>
+        </div>
+        <div>
+          <h3>Install Libraries</h3>
+          <pre><code>pip install pandas matplotlib seaborn notebook</code></pre>
+        </div>
+        <div>
+          <h3>Open Notebook</h3>
+          <pre><code>jupyter notebook Notebook/Netflix_Analysis.ipynb</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<img src="visuals/content_growth.png">
-
-<img src="visuals/movies_vs_tvshows.png">
-
-<img src="visuals/top_genres.png">
-
-<img src="visuals/top_countries.png">
-
-<img src="visuals/top_directors.png">
-
-</section>
-
-<section>
-
-<h2>Data Analytics Pipeline</h2>
-
-<p class="pipeline">
-
-Dataset → Data Cleaning → Exploratory Analysis → Visualization → Insights
-
-</p>
-
-</section>
-
-<section>
-
-<h2>Architecture</h2>
-
-<img src="visuals/architecture.png">
-
-</section>
-
-<section>
-
-<h2>How To Run The Project</h2>
-
-<pre>
-
-git clone https://github.com/bindhusaahithi/Netflix-Analysis.git
-
-cd Netflix-Analysis
-
-pip install pandas matplotlib seaborn
-
-jupyter notebook
-
-</pre>
-
-</section>
-
-<footer>
-
-<p>Created by Bindhu Saahithi</p>
-
-</footer>
-
+  <footer>
+    <p>Netflix Content Analytics Platform</p>
+    <a href="https://github.com/bindhusaahithi/Netflix-Analysis" target="_blank" rel="noreferrer">
+      View Full Project on GitHub
+    </a>
+  </footer>
 </body>
-
 </html>
