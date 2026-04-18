@@ -25,6 +25,16 @@ Using **Python, Pandas, Matplotlib, and Seaborn**, this project demonstrates how
 
 ---
 
+## Key Takeaways
+
+• Netflix experienced rapid content expansion after 2016, indicating aggressive platform growth.  
+• Movies dominate the platform, making up roughly twice as many titles as TV shows.  
+• International Movies and Dramas are the most common genres in the catalog.  
+• The United States leads content production, followed by India and the United Kingdom.  
+• Several directors collaborate repeatedly with Netflix, contributing multiple titles.
+
+---
+
 # Why This Analysis Matters
 
 Streaming platforms generate massive volumes of content data.
@@ -66,6 +76,18 @@ Netflix Movies & TV Shows dataset.
 
 Source:  
 https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+---
+
+## Data Preparation & Methods
+
+The dataset was cleaned and processed using Pandas:
+
+• Removed missing or inconsistent values  
+• Converted date fields for time-based analysis  
+• Aggregated titles by year to analyze growth trends  
+• Grouped genres and countries to identify dominant categories  
+• Generated visualizations using Matplotlib and Seaborn
 
 ---
 
