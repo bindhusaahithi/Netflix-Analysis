@@ -3,248 +3,361 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Netflix Data Analysis | Bindhu Saahithi</title>
+  <title>Bindhu Saahithi | Data Science Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio of Bindhu Saahithi - Data Science student showcasing analytics, machine learning, healthcare, and visualization projects."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="bg-blur bg-blur-1"></div>
+  <div class="bg-blur bg-blur-2"></div>
 
-  <nav class="navbar">
-    <div class="nav-container">
-      <h2 class="logo">Bindhu Saahithi</h2>
-      <ul class="nav-links">
-        <li><a href="#overview">Overview</a></li>
-        <li><a href="#workflow">Workflow</a></li>
-        <li><a href="#visuals">Visuals</a></li>
-        <li><a href="#insights">Insights</a></li>
-        <li><a href="https://github.com/bindhusaahithi/Netflix-Analysis" target="_blank">GitHub</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <header class="hero">
-    <div class="container">
-      <p class="eyebrow">Data Science Project Portfolio</p>
-      <h1>Netflix Data Analysis</h1>
-      <p class="subtitle">
-        A data analysis project exploring Netflix Movies and TV Shows to uncover trends in content growth,
-        genre popularity, country contribution, ratings, and director activity.
-      </p>
-      <div class="hero-buttons">
-        <a href="https://github.com/bindhusaahithi/Netflix-Analysis" target="_blank" class="btn primary-btn">
-          View GitHub Repository
-        </a>
-        <a href="https://www.kaggle.com/datasets/shivamb/netflix-shows" target="_blank" class="btn secondary-btn">
-          View Dataset
-        </a>
-      </div>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#" class="logo">Bindhu Saahithi</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <main class="container">
-
-    <section class="card" id="overview">
-      <h2>Project Overview</h2>
-      <p>
-        This project analyzes the Netflix Movies and TV Shows dataset to uncover trends in content growth,
-        genre popularity, country contribution, and rating distribution.
-      </p>
-      <p>
-        Using Python, Pandas, and Seaborn, the project performs exploratory data analysis,
-        data cleaning, and visualization to identify patterns in Netflix’s content strategy
-        and understand how the platform’s catalog has evolved over time.
-      </p>
-      <p>
-        This project demonstrates practical skills in data cleaning, exploratory data analysis,
-        visualization, and insight generation using a real-world dataset.
-      </p>
-    </section>
-
-    <section class="info-grid">
-      <div class="card">
-        <h2>Tools & Technologies</h2>
-        <ul class="icon-list">
-          <li>🐍 Python</li>
-          <li>📊 Pandas</li>
-          <li>🔢 NumPy</li>
-          <li>📈 Matplotlib</li>
-          <li>🎨 Seaborn</li>
-          <li>📓 Jupyter Notebook</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h2>Dataset</h2>
-        <p><strong>Dataset:</strong> Netflix Movies and TV Shows Dataset</p>
-        <p><strong>Size:</strong> ~8800+ titles</p>
-        <p><strong>Features:</strong> Title, Type, Director, Country, Cast, Genre, Rating, Release Year</p>
-        <p>
-          <strong>Source:</strong>
-          <a href="https://www.kaggle.com/datasets/shivamb/netflix-shows" target="_blank">
-            Netflix Movies and TV Shows Dataset on Kaggle
-          </a>
-        </p>
-      </div>
-    </section>
-
-    <section class="card">
-      <h2>Project Objectives</h2>
-      <ul>
-        <li>Analyze the growth of Netflix content over the years</li>
-        <li>Compare the distribution of Movies and TV Shows</li>
-        <li>Identify the most popular genres on Netflix</li>
-        <li>Find the top countries contributing content</li>
-        <li>Explore directors with the most titles</li>
-        <li>Examine the most common ratings across Netflix titles</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>Skills Demonstrated</h2>
-      <ul>
-        <li>Data Cleaning and Preprocessing</li>
-        <li>Exploratory Data Analysis (EDA)</li>
-        <li>Data Visualization</li>
-        <li>Trend Analysis</li>
-        <li>Insight Generation</li>
-        <li>Python Data Analysis Workflow</li>
-      </ul>
-    </section>
-
-    <section class="card" id="workflow">
-      <h2>Project Workflow</h2>
-      <ol>
-        <li><strong>Data Collection:</strong> Obtained the Netflix dataset from Kaggle.</li>
-        <li><strong>Data Cleaning:</strong> Handled missing values and standardized relevant columns.</li>
-        <li><strong>Exploratory Data Analysis:</strong> Explored distribution across genres, countries, ratings, and content type.</li>
-        <li><strong>Data Visualization:</strong> Built visualizations using Matplotlib and Seaborn.</li>
-        <li><strong>Insight Extraction:</strong> Identified key trends in Netflix content growth and catalog structure.</li>
-      </ol>
-    </section>
-
-    <section class="card">
-      <h2>Key Questions Answered</h2>
-      <ul>
-        <li>How has Netflix content grown over time?</li>
-        <li>Does Netflix have more Movies or TV Shows?</li>
-        <li>Which countries contribute the most content?</li>
-        <li>Which genres are most common on Netflix?</li>
-        <li>Which directors have the highest number of titles?</li>
-        <li>What ratings appear most frequently in the dataset?</li>
-      </ul>
-    </section>
-
-    <section class="card" id="visuals">
-      <h2>Visual Analysis</h2>
-      <div class="visual-grid">
-
-        <div class="visual-card">
-          <img src="visuals/content_growth.png" alt="Netflix content growth over time chart" />
-          <h3>Content Growth</h3>
-          <p>
-            Netflix experienced rapid content expansion between 2016 and 2019, with a peak around 2019.
-            After this period, growth slightly declined.
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Data Science Portfolio</p>
+          <h1>
+            Hi, I'm <span>Bindhu Saahithi</span><br />
+            Building analytics and machine learning projects with real-world impact.
+          </h1>
+          <p class="hero-description">
+            I’m a Master’s student in Data Science passionate about data analytics,
+            machine learning, visualization, and healthcare-focused problem solving.
+            This portfolio highlights selected projects built with Python, SQL,
+            dashboards, and applied data science workflows.
           </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="https://github.com/bindhusaahithi" target="_blank" class="btn btn-secondary">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <h3>3+</h3>
+              <p>Major Portfolio Projects</p>
+            </div>
+            <div class="stat-card">
+              <h3>Python</h3>
+              <p>Analytics & ML Workflows</p>
+            </div>
+            <div class="stat-card">
+              <h3>GitHub</h3>
+              <p>Project Documentation & Deployment</p>
+            </div>
+          </div>
         </div>
 
-        <div class="visual-card">
-          <img src="visuals/movies_vs_tvshows.png" alt="Movies versus TV Shows comparison chart" />
-          <h3>Movies vs TV Shows</h3>
-          <p>
-            Movies dominate Netflix’s catalog compared to TV Shows, showing the platform still relies heavily
-            on movie content while growing its series library.
-          </p>
-        </div>
+        <div class="hero-panel">
+          <div class="profile-card">
+            <div class="profile-top">
+              <div class="profile-avatar">BS</div>
+              <div>
+                <h2>Bindhu Saahithi</h2>
+                <p>Data Science Graduate Student</p>
+              </div>
+            </div>
 
-        <div class="visual-card">
-          <img src="visuals/top_countries.png" alt="Top countries contributing Netflix content chart" />
-          <h3>Top Countries</h3>
-          <p>
-            The United States contributes the largest share of Netflix content, followed by India and other major markets,
-            reflecting Netflix’s global distribution strategy.
-          </p>
-        </div>
+            <div class="profile-tags">
+              <span>Python</span>
+              <span>SQL</span>
+              <span>Pandas</span>
+              <span>Machine Learning</span>
+              <span>Data Visualization</span>
+              <span>GitHub Pages</span>
+            </div>
 
-        <div class="visual-card">
-          <img src="visuals/top_directors.png" alt="Top directors on Netflix chart" />
-          <h3>Top Directors</h3>
-          <p>
-            Director analysis highlights the creators with the strongest presence in the dataset and helps identify
-            frequent contributors to the Netflix catalog.
-          </p>
+            <div class="profile-info">
+              <div class="info-row">
+                <span>Focus</span>
+                <strong>Analytics • ML • Healthcare</strong>
+              </div>
+              <div class="info-row">
+                <span>Education</span>
+                <strong>Master’s in Data Science</strong>
+              </div>
+              <div class="info-row">
+                <span>Portfolio Goal</span>
+                <strong>Recruiter-ready project showcase</strong>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="visual-card">
-          <img src="visuals/top_genres.png" alt="Top genres on Netflix chart" />
-          <h3>Top Genres</h3>
-          <p>
-            Genre distribution shows which content categories dominate the platform and reveals Netflix’s concentration
-            in a few highly represented genres.
-          </p>
-        </div>
-
-        <div class="visual-card">
-          <img src="visuals/top_ratings.png" alt="Top content ratings on Netflix chart" />
-          <h3>Top Ratings</h3>
-          <p>
-            Ratings analysis helps explain how Netflix content is distributed across audience groups and what type
-            of maturity levels appear most often.
-          </p>
-        </div>
-
       </div>
     </section>
 
-    <section class="card" id="insights">
-      <h2>Key Insights</h2>
-      <ul>
-        <li>Netflix content expanded rapidly in recent years before a slight decline.</li>
-        <li>Movies make up a larger share of the Netflix catalog than TV Shows.</li>
-        <li>A few countries contribute a major portion of the total content available.</li>
-        <li>Some genres dominate the platform, showing strong content concentration in specific categories.</li>
-        <li>Ratings analysis provides a clear view of the target audience across Netflix titles.</li>
-        <li>Director analysis highlights recurring creators with a strong catalog presence.</li>
-      </ul>
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">About Me</p>
+          <h2>Turning data into clear insights and impactful solutions</h2>
+          <p>
+            I enjoy building projects that combine strong analysis, clean storytelling,
+            and practical business or healthcare relevance. My work includes
+            exploratory data analysis, dashboarding, machine learning, and
+            deep learning projects designed to look polished and professional on GitHub.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>What I Work On</h3>
+            <p>
+              Data analytics, predictive modeling, healthcare use cases, dashboard
+              reporting, customer insights, and presentation-ready GitHub projects.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>What I Use</h3>
+            <p>
+              Python, Pandas, NumPy, Matplotlib, Seaborn, SQL, Jupyter, Tableau,
+              Power BI, and Git/GitHub.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>What I Aim For</h3>
+            <p>
+              To build projects that are technically solid, visually strong, and
+              easy for recruiters to understand within seconds.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="card">
-      <h2>Why This Project Matters</h2>
-      <p>
-        This project reflects the kind of analysis used in real business and product environments.
-        It demonstrates how raw entertainment data can be cleaned, explored, visualized,
-        and transformed into meaningful insights.
-      </p>
-      <p>
-        It also highlights my ability to work with datasets, ask relevant analytical questions,
-        create visual summaries, and communicate findings clearly in a professional format.
-      </p>
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Projects</p>
+          <h2>Featured Work</h2>
+          <p>
+            A selection of analytics, machine learning, and healthcare-focused projects
+            designed to showcase problem-solving, technical skills, and strong presentation.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-badge">Featured</div>
+            <div class="project-content">
+              <h3>Netflix Content Analytics Platform</h3>
+              <p>
+                Exploratory data analysis project on Netflix Movies and TV Shows data,
+                uncovering content growth, genre dominance, country production trends,
+                and top contributing directors through visual storytelling.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>Matplotlib</span>
+                <span>Seaborn</span>
+                <span>EDA</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/bindhusaahithi/Netflix-Analysis" target="_blank">GitHub Repo</a>
+                <a href="https://bindhusaahithi.github.io/Netflix-Analysis/" target="_blank">Live Project</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <h3>Sales Analytics Dashboard</h3>
+              <p>
+                Sales-focused analytics project built to identify business performance,
+                category trends, and revenue insights using data visualization and dashboard storytelling.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>Visualization</span>
+                <span>Business Analytics</span>
+                <span>Dashboard</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/bindhusaahithi/Sales-Analytics" target="_blank">GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <h3>Lung Cancer Detection</h3>
+              <p>
+                Deep learning project focused on medical imaging and classification,
+                demonstrating healthcare AI applications and model-based prediction workflows.
+              </p>
+              <div class="project-tags">
+                <span>Deep Learning</span>
+                <span>Healthcare</span>
+                <span>Python</span>
+                <span>Modeling</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/bindhusaahithi/Lung-Cancer-Detection" target="_blank">GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <h3>Healthcare Analytics Project</h3>
+              <p>
+                Healthcare-focused analytics and reporting project built around data
+                processing, insight generation, and clean product-style presentation.
+              </p>
+              <div class="project-tags">
+                <span>Healthcare</span>
+                <span>Analytics</span>
+                <span>SQL</span>
+                <span>Python</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank">Coming Soon</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <h3>Customer Segmentation</h3>
+              <p>
+                Machine learning project using clustering techniques to segment customers,
+                identify behavior patterns, and support data-driven business decisions.
+              </p>
+              <div class="project-tags">
+                <span>Machine Learning</span>
+                <span>Clustering</span>
+                <span>Python</span>
+                <span>EDA</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank">Coming Soon</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <h3>More Projects Coming</h3>
+              <p>
+                I’m continuously improving my GitHub with projects in analytics,
+                dashboard design, healthcare data, and applied machine learning.
+              </p>
+              <div class="project-tags">
+                <span>Portfolio Growth</span>
+                <span>GitHub</span>
+                <span>Projects</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/bindhusaahithi?tab=repositories" target="_blank">View All Repositories</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section class="card">
-      <h2>Conclusion</h2>
-      <p>
-        The analysis shows that Netflix rapidly expanded its content library between 2016 and 2019,
-        with movies dominating the platform’s catalog. International content also plays an important role,
-        reflecting Netflix’s strategy to reach global audiences.
-      </p>
-      <p>
-        These insights demonstrate how data analysis can help understand content trends
-        and platform strategy in the streaming industry.
-      </p>
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Skills</p>
+          <h2>Technical Toolkit</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-box">
+            <h3>Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Data Analysis</h3>
+            <ul>
+              <li>Pandas</li>
+              <li>NumPy</li>
+              <li>Data Cleaning</li>
+              <li>EDA</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Visualization</h3>
+            <ul>
+              <li>Matplotlib</li>
+              <li>Seaborn</li>
+              <li>Tableau</li>
+              <li>Power BI</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Machine Learning</h3>
+            <ul>
+              <li>Scikit-learn</li>
+              <li>Clustering</li>
+              <li>Classification</li>
+              <li>Deep Learning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="card center-card">
-      <h2>Project Link</h2>
-      <p>Explore the full notebook, code, and project files in the GitHub repository.</p>
-      <a href="https://github.com/bindhusaahithi/Netflix-Analysis" target="_blank" class="btn primary-btn">
-        Open GitHub Repository
-      </a>
-    </section>
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-card">
+          <p class="section-label">Contact</p>
+          <h2>Let’s connect</h2>
+          <p>
+            I’m open to opportunities in data analytics, data science, and
+            related roles where I can contribute through analysis, modeling,
+            and well-communicated insights.
+          </p>
 
+          <div class="contact-links">
+            <a href="mailto:your-email@example.com" class="btn btn-primary">Email Me</a>
+            <a href="https://github.com/bindhusaahithi" target="_blank" class="btn btn-secondary">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="footer">
-    <p>© 2026 Bindhu Saahithi | Data Science Portfolio</p>
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2026 Bindhu Saahithi. Built with HTML & CSS for GitHub Pages.</p>
+      <a href="#">Back to top ↑</a>
+    </div>
   </footer>
-
 </body>
 </html>
