@@ -27,11 +27,12 @@ Using **Python, Pandas, Matplotlib, and Seaborn**, this project demonstrates how
 
 # Key Takeaways
 
-• Netflix experienced rapid content expansion after 2016, indicating aggressive platform growth.  
-• Movies dominate the platform, making up roughly twice as many titles as TV shows.  
-• International Movies and Dramas are the most common genres in the catalog.  
-• The United States leads content production, followed by India and the United Kingdom.  
-• Several directors collaborate repeatedly with Netflix, contributing multiple titles.
+- Netflix content growth accelerated sharply after 2015, with the strongest expansion occurring between 2016 and 2019.
+- Movies make up a significantly larger share of the catalog than TV Shows.
+- International Movies and Dramas are among the most represented genres, showing strong demand for broad audience appeal.
+- The United States contributes the highest number of titles, followed by India and the United Kingdom.
+- A relatively small set of directors appears multiple times, suggesting recurring creator partnerships.
+- Ratings trends indicate that much of the catalog is targeted toward mainstream and mature audiences.
 
 ---
 
@@ -50,11 +51,12 @@ Interpret how Netflix positions content for different audience groups
 
 # Project Objectives
 
-- Analyze the growth of Netflix content over the years  
-- Compare Movies vs TV Shows distribution  
-- Identify the most popular genres  
-- Discover top contributing countries  
-- Find directors with the most titles on Netflix  
+- Analyze the growth of Netflix content over the years
+- Compare Movies vs TV Shows distribution
+- Identify the most common genres
+- Discover top contributing countries
+- Find directors with the most titles
+- Explore the distribution of content ratings
 
 ---
 
@@ -74,6 +76,17 @@ Netflix Movies & TV Shows dataset.
 
 Source:  
 https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+Key fields used in the analysis:
+
+type
+title
+director
+country
+listed_in
+rating
+release_year
+date_added
 
 ---
 
