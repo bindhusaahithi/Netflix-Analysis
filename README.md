@@ -6,7 +6,6 @@ Explore content trends, genre dominance, and global production insights using da
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-purple)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
@@ -231,8 +230,3 @@ Master's in Data Science
 
 GitHub: https://github.com/bindhusaahithi
 
----
-
-# License
-
-MIT License
