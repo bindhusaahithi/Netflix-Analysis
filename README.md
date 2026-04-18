@@ -79,14 +79,17 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows
 
 Key fields used in the analysis:
 
-type
-title
-director
-country
-listed_in
-rating
-release_year
-date_added
+- show_id
+- type
+- title
+- cast
+- director
+- country
+- listed_in
+- rating
+- release_year
+- date_added
+- duration
 
 ---
 
