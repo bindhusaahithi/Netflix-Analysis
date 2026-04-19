@@ -1,4 +1,4 @@
-# Netflix Analysis 
+# Netflix Content Analytics Platform
 
 <p align="center">
   A data analytics case study using Python, Pandas, Matplotlib, and Seaborn to analyze Netflix Movies and TV Shows and uncover trends in content growth, genre dominance, global production, ratings, and creator activity.
@@ -140,3 +140,117 @@ Ratings analysis helps explain how Netflix content is distributed across differe
 
 ```text
 Dataset -> Data Cleaning -> Exploratory Data Analysis -> Visualization -> Insights
+```
+
+---
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A["Netflix CSV Dataset"] --> B["Data Cleaning / Preprocessing"]
+    B --> C["Exploratory Data Analysis"]
+    C --> D["Matplotlib & Seaborn Visualizations"]
+    D --> E["Business-Ready Insights"]
+
+    E --> F["Content Growth"]
+    E --> G["Genre Distribution"]
+    E --> H["Country Contribution"]
+    E --> I["Director Activity"]
+    E --> J["Ratings Distribution"]
+```
+
+---
+
+## Project Website
+
+This repository also includes a responsive project portfolio webpage:
+
+- `index.html`
+- `style.css`
+
+The webpage presents the project as a recruiter-friendly case study with overview, key findings, visual analysis, workflow, architecture, and run instructions.
+
+---
+
+## Quick Start
+
+### Prerequisites
+
+- Python 3.10+
+- Jupyter Notebook
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+If you prefer installing manually:
+
+```bash
+pip install pandas matplotlib seaborn notebook
+```
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/bindhusaahithi/Netflix-Analysis.git
+cd Netflix-Analysis
+```
+
+### Run the Notebook
+
+```bash
+jupyter notebook Notebook/Netflix_Analysis.ipynb
+```
+
+Run all cells to reproduce the analysis and visualizations.
+
+---
+
+## Project Structure
+
+```text
+Netflix-Analysis/
+├── Data/
+│   └── netflix_titles.csv
+├── Notebook/
+│   └── Netflix_Analysis.ipynb
+├── visuals/
+│   ├── content_growth.png
+│   ├── movies_vs_tvshows.png
+│   ├── top_countries.png
+│   ├── top_directors.png
+│   ├── top_genres.png
+│   └── top_ratings.png
+├── index.html
+├── requirements.txt
+├── style.css
+└── README.md
+```
+
+---
+
+## Future Improvements
+
+- Build an interactive dashboard using Streamlit or Power BI
+- Add deeper analysis by release year and country-genre combinations
+- Perform text analysis on Netflix descriptions
+- Train a recommendation or classification model using content metadata
+- Compare Netflix content patterns with other streaming platforms
+
+---
+
+## Final Conclusion
+
+This analysis shows that Netflix's catalog expanded aggressively in the late 2010s, with Movies remaining the dominant content type. The dataset also reflects strong international breadth, with major contributions from the United States, India, and the United Kingdom. Overall, the project demonstrates how exploratory data analysis can reveal meaningful patterns in content strategy, audience targeting, and global production trends.
+
+---
+
+## Author
+
+**Bindhu Saahithi**  
+Master's in Data Science
+
+GitHub: [bindhusaahithi](https://github.com/bindhusaahithi)

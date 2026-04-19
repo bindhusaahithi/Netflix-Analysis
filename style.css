@@ -36,10 +36,8 @@ a {
 }
 
 .hero {
-  min-height: 92vh;
-  padding: 28px;
-  display: grid;
-  align-items: center;
+  padding: 130px 28px 96px;
+  position: relative;
   background:
     linear-gradient(rgba(7, 11, 20, 0.78), rgba(7, 11, 20, 0.9)),
     radial-gradient(circle at 82% 18%, rgba(245, 197, 66, 0.16), transparent 22rem),
@@ -79,7 +77,6 @@ a {
   width: min(980px, 100%);
   margin: 0 auto;
   text-align: center;
-  padding-top: 70px;
 }
 
 .eyebrow,
@@ -387,8 +384,8 @@ footer a {
   }
 
   .hero {
-    min-height: auto;
-    padding-top: 120px;
+    padding-top: 112px;
+    padding-bottom: 72px;
   }
 
   .pipeline,
@@ -415,7 +412,7 @@ footer a {
   }
 
   .hero {
-    padding: 18px;
+    padding: 18px 18px 64px;
   }
 
   .hero-content {
