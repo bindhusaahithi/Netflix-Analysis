@@ -46,6 +46,16 @@ Streaming platforms generate large content catalogs, but raw title metadata does
 
 ---
 
+## Business Impact
+
+This analysis translates Netflix catalog metadata into decision-ready insights that can support:
+
+- **Content Strategy:** Identifying when Netflix expanded most aggressively and which content types dominate the catalog.
+- **Market Expansion:** Highlighting top contributing countries and where global production is most concentrated.
+- **Audience Targeting:** Using ratings and genre patterns to understand how the catalog is positioned for viewer segments.
+
+---
+
 ## Tools & Skills
 
 - Python

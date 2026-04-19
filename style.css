@@ -181,6 +181,7 @@ p {
 .stat-card,
 .insight-card,
 .visual-card,
+.impact-card,
 .text-card,
 .value-list article,
 .code-grid > div {
@@ -251,6 +252,24 @@ p {
   background: rgba(118, 169, 255, 0.12);
   border: 1px solid rgba(118, 169, 255, 0.25);
   font-weight: 800;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.impact-card {
+  padding: 26px;
+}
+
+.impact-card h3 {
+  color: var(--gold);
+}
+
+.impact-card p {
+  margin-bottom: 0;
 }
 
 .visual-grid {
@@ -378,6 +397,7 @@ footer a {
 @media (max-width: 900px) {
   .stats-grid,
   .insight-grid,
+  .impact-grid,
   .visual-grid,
   .code-grid,
   .split-section {
