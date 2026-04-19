@@ -365,6 +365,11 @@ footer p {
   font-weight: 900;
 }
 
+footer span {
+  color: var(--muted);
+  font-size: 14px;
+}
+
 footer a {
   color: var(--blue);
   font-weight: 800;
