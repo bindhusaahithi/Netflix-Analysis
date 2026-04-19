@@ -179,6 +179,12 @@ This repository also includes a responsive project portfolio webpage:
 - `index.html`
 - `style.css`
 
+Direct project links:
+
+- [View Project Code](https://github.com/bindhusaahithi/Netflix-Analysis)
+- [View Notebook](Notebook/Netflix_Analysis.ipynb)
+- [View Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+
 The webpage presents the project as a recruiter-friendly case study with overview, key findings, visual analysis, workflow, architecture, and run instructions.
 
 ---
